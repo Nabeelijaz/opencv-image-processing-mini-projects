@@ -6,12 +6,17 @@ This project contains multiple Python scripts demonstrating basic OpenCV operati
 - `assets/` → Contains all images and video files
 - `scripts/` → Contains all Python code files, named task-wise
 
-## Tasks
+## Tasks Overview
+Basic Scripts
 1. 01_loading.py → Load an image
 2. 02_displaying.py → Display an image
 3. 03_dimensions.py → Get image dimensions
 4. 04_grayscale.py → Convert an image to grayscale
 5. 05_saving_img.py → Save the processed image
+
+Advanced Scripts
+1. 01_resize.py → Resize image, display, and optionally save
+2. 02_image_shape.py → Get image dimensions & channels, rotate, draw a circle, display, and optionally save
 
 ## Installation
 ```bash
