@@ -1,8 +1,9 @@
 import cv2
 import os
 
-input_path = os.path.join("..","assets", "python_img.png")
-output_path = os.path.join("..","assets", "edit_able_img.png")
+script_dir = os.path.dirname(os.path.abspath(__file__))
+input_path = os.path.join(script_dir, "..","..","assets", "python_img.png")
+output_path = os.path.join(script_dir, "..","..","assets", "edit_able_img.png")
 
 if not os.path.exists(input_path):
     print(f"Error: File not found at '{input_path}'")
