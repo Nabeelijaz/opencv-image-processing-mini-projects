@@ -16,3 +16,17 @@ This project contains multiple Python scripts demonstrating basic OpenCV operati
 ## Installation
 ```bash
 pip install -r requirements.txt
+
+## 🚀 Steps to Run
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Nabeelijaz/opencv-image-processing-mini-projects.git
+   cd opencv-image-processing-mini-projects
+   python -m venv venv
+   # Activate venv
+   .\venv\Scripts\activate
+   # Install all packages
+   pip install -r requirements.txt
+   # Verify packages
+   pip list

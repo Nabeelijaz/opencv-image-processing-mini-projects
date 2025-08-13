@@ -13,4 +13,5 @@ A simple Python OpenCV project to:
 ## Steps to Run
 1. Activate your virtual environment:
    ```bash
-   .\venv\Scripts\activate
+   python "A1 - Mini Project\min_project.py"
+
